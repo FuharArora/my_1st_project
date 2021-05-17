@@ -1,0 +1,41 @@
+
+*{
+	box-sizing: border-box;
+}
+.bg{
+	background-image: url("image9.jpg");
+    	min-height: 100%;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+}
+h1{
+	font-family: Algerian;
+	color: black;
+	font-size: 60px;
+	padding-top: 150px;
+	padding-left: 500px;
+}
+h2{
+	color: black;
+	padding-top: 50px;
+	padding-left: 300px;
+}
+.btn{
+	background: rgb(255,230,255);
+    	color: rgb(0,128,21);
+	border-radius: 25px;
+    	padding: 16px 20px;
+	margin-top: 70px;
+	margin-left:650px;
+    	border: none;
+    	cursor: pointer;
+    	width: 200px;
+    	opacity: 0.9;
+}
+.btn: hover{
+	opacity: 1;
+	background-color: purple;
+	color: white;
+}
