@@ -1,0 +1,61 @@
+body,html{
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.bgimage{
+    background-image: url("image7.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.container{
+    position:absolute;
+    left: 30%;
+    margin: 80px;
+    max-width: 500px;
+    padding: 16px;
+    
+    
+}
+input[type=text], input[type=password]
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #d4bebe;
+    
+}
+.btn {
+    background-color: #16ecec;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+    background-color: rgb(32, 238, 32)
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  a:hover{
+    background-color: yellow;
+}
+a{
+    font-size: 18px;
+    color: blue;
+}
+p{
+    padding-top: 50px;
+    padding-left: 80px;
+}
